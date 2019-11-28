@@ -9,9 +9,13 @@ int main()
         c = a/b;
         printf("The result is %d\n",c);
     }
-	else 
+	else if(b == 1)
     {
-        printf("The result is %d\n",c);
+        printf("The result is %d\n",a);
+    }
+    else
+    {
+        printf("Not possible");
     }
 	return 0;
 }

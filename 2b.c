@@ -1,10 +1,9 @@
 #include <stdio.h>
 int main()
 {
-	int a,b,c;
-	a = 5;
-    b = 6;
-    c = a/b;
-	printf("The result is %d\n",c);
+	int a = 5;
+    int b = 0;
+    float c = a/b;
+	printf("The result is %f\n",c);
 	return 0;
 }
